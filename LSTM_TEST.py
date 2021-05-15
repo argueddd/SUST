@@ -30,3 +30,5 @@ print('state_fw_1_c: ', state_fw_2_c.shape)  # [-1, 100]
 # 单层的outputs 包含所有time的输出h，格式为[batch_size, time_steps, cell_units]
 # 单层的state   包含最后一个time_step的输出h以及状态c.格式均为[batch_size, cell_units]
 # tf.keras.layers.RNN
+
+#测试完毕
